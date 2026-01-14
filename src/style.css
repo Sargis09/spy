@@ -31,6 +31,7 @@ body {
 
 .counter {
   display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -62,4 +63,75 @@ body {
   width: 200px;
   padding: 7px;
   text-align: center;
+}
+.preparing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-inline: 64px;
+  height: 100%;
+}
+.barer-random {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 30px;
+}
+
+.opn-cls {
+  display: flex;
+  justify-content: center;
+}
+
+.open-close {
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.restart {
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.play {
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: rgb(108, 172, 108);
+}
+
+.timeing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.timer {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #3a3a3a;
+  font-size: 50px;
+  color: white;
+}
+
+.refresh {
+  padding: 12px;
+  font-size: 20px;
+  background-color: cornflowerblue;
+  border-radius: 12px;
+  cursor: pointer;
 }
